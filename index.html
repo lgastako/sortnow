@@ -11,15 +11,15 @@
             <li>Drag this bookmarklet to your bookmarks bar: <a href="javascript:var s=document.createElement('script');s.src='http://www.kryogenix.org/code/browser/sorttable/sorttable.js';document.head.appendChild(s);var w=document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, (function(n){if (n.tagName=='TABLE'){return NodeFilter.FILTER_ACCEPT}else{ return NodeFilter.FILTER_SKIP}}), false);while (w.nextNode()) w.currentNode.className += ' sortable';return false">Sort Now</a></li>
             <li>Visit a page with unsortable tables.</li>
             <li>Click the bookmarklet.</li>
-            <li>Enjoy sortable tables, usually.</li>
+            <li>Enjoy sortable tables, usually</li>
         </ol>
     </section>
     <section>
         <h2>Disclaimer</h2>
         <p>
-            This bookmarket may impregnate your sister or cause other 
-            unexpected side affects.  It is provided without any warranty
-            and all use it as your own risk.
+            This bookmarklet may impregnate your sister or cause other 
+            unexpected and/or undesirable side affects.  It is provided         
+            without any warranty and all use is at your own risk.
         </p>
     </section>
     <section>
@@ -51,6 +51,15 @@
                 <td>12-666-334</td>
             </tr>
         </table>
+    </section>
+    <section>
+        <h2>Note</h2>
+        <p>
+            While the tables are now sortable, no immediate visual
+            change will take place.  When you click a header to initiate
+            a sort you will see an arrow appear by the currently sorted
+            header indicating the direction of the sort.
+        </p>
     </section>
 </body>
 </html>
