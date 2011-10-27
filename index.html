@@ -8,7 +8,7 @@
     <section>
         <h2>usage</h2>
         <ol>
-            <li>Drag this bookmarklet to your bookmarks bar: <a href="javascript:var s=document.createElement('script');s.src='http://www.kryogenix.org/code/browser/sorttable/sorttable.js';document.head.appendChild(s);var w=document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, (function(){if (node.tagName=='TABLE'){return NodeFilter.FILTER_ACCEPT}else{ return NodeFilter.FILTER_SKIP}}), false);while (walker.nextNode()) walker.currentNode.style = walker.currentNode.className += ' sortable'">Sort Now</a></li>
+            <li>Drag this bookmarklet to your bookmarks bar: <a href="javascript:var s=document.createElement('script');s.src='http://www.kryogenix.org/code/browser/sorttable/sorttable.js';document.head.appendChild(s);var w=document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, (function(n){if (n.tagName=='TABLE'){return NodeFilter.FILTER_ACCEPT}else{ return NodeFilter.FILTER_SKIP}}), false);while (w.nextNode()) w.currentNode.className += ' sortable'">Sort Now</a></li>
             <li>Visit a page with unsortable tables.<li>
             <li>Click the bookmarklet.</li>
             <li>Enjoy sortable tables, usually.</li>
