@@ -1,6 +1,7 @@
-Ever wanted to click to sort a table on a web page that didn't support that?
+Ever wanted to click a header to sort a table on a web page that didn't support that?
 
-We got you covered:
+We've got you covered:
 
 http://lgastako.github.com/sortnow/
 
+Enjoy.
